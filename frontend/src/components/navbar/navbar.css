@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbarright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-icon,
+  .basket-icon {
+    height: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
